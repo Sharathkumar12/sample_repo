@@ -1,0 +1,16 @@
+<project name="build proj" default="build" basedir=".">
+<target name="clean">
+	<delete dir="classes"/>
+	<delete dir="jarfile"/>
+	</target>
+	<target name="init" depends="clean">
+		<mkdir dir="classes"/>
+		<mkdir dir="jarfile"/>
+		</target>
+	<target name="compile" depends="init">
+		<javac srcdir="C:\Alok\Alok_Ant\src\Day1" destdir="C:\Alok\Alok_Ant\ant\Build\classes" classpath="C:\Alok\Alok_Ant\src\lib\selenium-server-standalone-2.44.0.jar"></javac>
+		</target>
+	<target name="build" depends="compile">
+		<jar destfile="C:\Alok\Alok_Ant\ant\Build\jarfile\alok.jar" basedir="C:\Alok\Alok_Ant\ant\Build\classes"></jar>
+		</target>
+	</project>

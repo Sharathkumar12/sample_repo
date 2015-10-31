@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62" started-at="2015-10-29T12:29:18Z" finished-at="2015-10-29T12:29:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62" started-at="2015-10-29T12:29:18Z" finished-at="2015-10-29T12:29:18Z">
+      <class name="Day1.oct29">
+        <test-method status="PASS" signature="Logintest()[pri:0, instance:Day1.oct29@592c34b]" name="Logintest" duration-ms="31" started-at="2015-10-29T17:59:18Z" finished-at="2015-10-29T17:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+      </class> <!-- Day1.oct29 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
